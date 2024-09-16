@@ -18,6 +18,23 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+/* CSS */
+.counter_wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+.counter_input {
+  padding: 0.5rem;
+  margin-left: 1rem;
+}
+.counter_btn_wrapper {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
